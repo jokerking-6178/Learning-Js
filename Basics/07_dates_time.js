@@ -1,0 +1,7 @@
+const date = new Date()
+//console.log(date.toDateString())
+//console.log(date.toISOString())
+let myDate = new Date(2023 , 0, 10 , 5,34)
+//console.log(myDate.toDateString())
+let TimeStamp =  Date.now()
+console.log(TimeStamp)
