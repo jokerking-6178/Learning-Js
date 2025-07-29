@@ -27,5 +27,22 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage("shub"))
-console.log(loginUserMessage("nill"))
+//console.log(loginUserMessage("shub"))
+//console.log(loginUserMessage("nill"))
+
+function calculatePrice(... num1){
+    return num1;
+}
+
+//console.log(calculatePrice(100,200,300))
+
+user = {
+    username : "shubh" ,
+    age : 20
+}
+
+function handleObject(anyobject){
+    console.log(`name is ${anyobject.username} and age is ${anyobject.age}`)
+}
+
+//handleObject(user)
